@@ -10,6 +10,7 @@ if __name__=="__main__":
         train_anno=json.load(fp)
     Adjuster=AnnotationAdjuster(train_anno,imgPath,deleteLog="./deletetLog")
     Adjuster.adjustImg()
+    # Adjuster.adjustInstance()
     # Adjuster.confirmDelete()
     # Adjuster.deleteFromJson()
     
